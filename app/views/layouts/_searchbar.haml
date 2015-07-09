@@ -1,0 +1,10 @@
+%ul
+  = form_tag '/', :method => 'get' do
+    %li
+      = label_tag :"Language"
+      = select_tag :language, options_for_select([ "", "german", "english", "french" ], params[:language])
+    %li
+      = label_tag :"Genre"
+      = select_tag :genre, options_for_select(["", "documentary", "fiction", "animation", "sound" ], params[:genre])
+    %li
+      = submit_tag "Search", :name => nil, :class =>'btn_search'

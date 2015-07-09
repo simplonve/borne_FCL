@@ -7,7 +7,7 @@ csv.each do |row|
   movie.filmmaker_name = row.to_hash["filmmaker_name"]
   movie.production_name = row.to_hash["production_name"] 
   movie.title = row.to_hash["title"] 
-  movie.genre = row.to_hash["genre "] 
+  movie.genre = row.to_hash["genre"] 
   movie.duration = row.to_hash["duration"] 
   movie.language = row.to_hash["language"] 
   movie.subtitle = row.to_hash["subtitle"] 

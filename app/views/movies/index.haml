@@ -1,5 +1,12 @@
-%h1 Bonjour
+%h1 Résultat de la recherche
 - @movies.each do |m|
 	%ul 
 		%li
 			= link_to("#{m.title}", "/movies/#{m.id}")
+- if @movies.empty?
+	%h2 No result
+- if @movies.empty?
+	- @other_movies.each do |m|
+		%ul 
+			%li
+				= link_to("#{m.title}", "/movies/#{m.id}")

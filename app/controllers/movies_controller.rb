@@ -1,7 +1,10 @@
 class MoviesController < ApplicationController
 	def index
+		if params[:genre] == ""
+			params[:genre] = nil
+		end
 		@movies = Movie.where(filter_params.compact)
-		@movies = Movie.all if @movies.empty?
+		@other_movies = Movie.all if @movies.empty?
 	end
 	def show
 		@movie = Movie.find(params[:id])
