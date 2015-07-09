@@ -1,0 +1,5 @@
+%h1 Bonjour
+- @movies.each do |m|
+	%ul 
+		%li
+			= link_to("#{m.title}", "/movies/#{m.id}")

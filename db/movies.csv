@@ -1,0 +1,3 @@
+id,filmmaker_name,production_name,title,genre,duration,language,subtitle,format,synopsis,licence,sharing,url
+1,"Mathieu","matprod","la formidable aventure ","docu",01:05:32,"french",,".avi","Tout obstacle renforce la détermination. Celui qui s'est fixé un but n'en change pas.","Copyleft","true","#"
+2,"Sophie","sophieprod","qui va là ?","fiction",01:25:01,"english","french",".mov","Ce dessin m'a pris cinq minutes, mais j'ai mis soixante ans pour y arriver.","Copyfree","false","#"
