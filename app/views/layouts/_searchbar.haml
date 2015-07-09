@@ -2,9 +2,9 @@
   = form_tag '/', :method => 'get' do
     %li
       = label_tag :"Language"
-      = select_tag :language, options_for_select([ "", "german", "english", "french" ], params[:language])
+      = select_tag :language, options_for_select([ "", "german", "english", "french" ], params[:language]), :class =>'form-control'
     %li
       = label_tag :"Genre"
-      = select_tag :genre, options_for_select(["", "documentary", "fiction", "animation", "sound" ], params[:genre])
+      = select_tag :genre, options_for_select(["", "documentary", "fiction", "animation", "sound" ], params[:genre]), :class =>'btn btn-default dropdown-toggle'
     %li
-      = submit_tag "Search", :name => nil, :class =>'btn_search'
+      = submit_tag "Search", :name => nil, :class =>'btn btn-primary'
