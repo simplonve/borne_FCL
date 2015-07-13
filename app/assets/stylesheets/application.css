@@ -25,6 +25,10 @@ body{
 	height: 100%;
 }
 
+.container-fluid{
+	margin : 0 2%;
+}
+
 .navbar-header{
 	height: 150px;
 	background-color: #000000;
@@ -51,4 +55,8 @@ body{
 	width: 25%;
 	margin-right: 3%;
 	margin-left: 1%;
+}
+
+.submit-btn:hover{
+	background-color: blue;
 }
