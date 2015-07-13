@@ -39,3 +39,16 @@ body{
 .logo{
 	margin-right: auto;
 }
+
+.form_tag{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.select_tag{
+	width: 25%;
+	margin-right: 3%;
+	margin-left: 1%;
+}
