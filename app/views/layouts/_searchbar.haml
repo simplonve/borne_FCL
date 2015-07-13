@@ -1,16 +1,11 @@
-%nav.navbar.navbar-inverse
-	.navbar-header
-		= link_to image_tag('logo.png'), 'http://festivalducinemalibre.com/', :target => 'blank'	  
-		%ul
-		= form_tag '/', :method => 'get' do
-			%li
-			= label_tag :"Language"
-			= select_tag :language, options_for_select([ "", "german", "english", "french" ], params[:language]), :class =>''
-			%li
-			= label_tag :"Genre"
-			= select_tag :genre, options_for_select(["", "documentary", "fiction", "animation", "sound" ], params[:genre]), :class =>''
-			%li
-			= submit_tag "Search", :name => nil, :class =>''
+.navbar-header
+	= link_to image_tag('logo.png'), 'http://festivalducinemalibre.com/', :target => 'blank', :class =>'logo'	   
+	= form_tag '/', :method => 'get' do
+		= label_tag :"Language"
+		= select_tag :language, options_for_select([ "", "german", "english", "french" ], params[:language]), :class =>''
+		= label_tag :"Genre"
+		= select_tag :genre, options_for_select(["", "documentary", "fiction", "animation", "sound" ], params[:genre]), :class =>''
+		= submit_tag "Search", :name => nil, :class =>''
 
 
 

@@ -17,5 +17,25 @@
 
 *{
 	list-style-type: none;
-	margin: 0;
+}
+
+body{
+	width: 100%;
+	margin : 0;
+	height: 100%;
+}
+
+.navbar-header{
+	height: 150px;
+	background-color: #000000;
+	display: flex;
+	align-items : center;
+	justify-content : flex-end;
+	color: white;
+	padding-right: 4%;
+	font-family: Arial;
+}
+
+.logo{
+	margin-right: auto;
 }
