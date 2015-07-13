@@ -1,7 +1,11 @@
 %h1 Résultat de la recherche
 .box-container
 	- @movies.each do |m|
-		= link_to "#{m.title}", "/movies/#{m.id}", :class =>'box'
+		.box
+			%a{:href =>"/movies/#{m.id}", :class =>'s-desc'}
+				%p #{m.title}
+				%p #{m.genre}
+				%p #{m.language}
 - if @movies.empty?
 	%h2 No result
 - if @movies.empty?

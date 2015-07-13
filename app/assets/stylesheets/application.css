@@ -68,8 +68,41 @@ body{
 }
 
 .box{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 	border: black solid 2px;
 	width: 20%;
 	height: 300px;
 	margin: 5%;
+	font-family: Arial;
+	font-style: bold;
+	font-size: 2.5em;
+	text-decoration: none;
+	color: black;
+	overflow: hidden;
+}
+
+.s-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content : flex-start;
+  align-items: flex-start;
+  position: absolute;
+  bottom: -80%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba(0,0,0,0.85);
+  color: #fff;
+  opacity: 1;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+.box:hover .s-desc {
+	bottom: 0;
+	opacity: 1;
 }
