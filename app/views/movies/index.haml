@@ -1,12 +1,10 @@
 %h1 Résultat de la recherche
-- @movies.each do |m|
-	%ul 
-		%li
-			= link_to("#{m.title}", "/movies/#{m.id}")
+.box-container
+	- @movies.each do |m|
+		= link_to "#{m.title}", "/movies/#{m.id}", :class =>'box'
 - if @movies.empty?
 	%h2 No result
 - if @movies.empty?
-	- @other_movies.each do |m|
-		%ul 
-			%li
-				= link_to("#{m.title}", "/movies/#{m.id}")
+	.box-container
+		- @other_movies.each do |m|
+			= link_to "#{m.title}", "/movies/#{m.id}", :class =>'box'

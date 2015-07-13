@@ -60,3 +60,16 @@ body{
 .submit-btn:hover{
 	background-color: blue;
 }
+
+.box-container{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.box{
+	border: black solid 2px;
+	width: 20%;
+	height: 300px;
+	margin: 5%;
+}
