@@ -64,7 +64,10 @@ body{
 .box-container{
 	display: flex;
 	width: 100%;
-	justify-content: center;
+	flex-wrap : wrap;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 5%;
 }
 
 .box{
@@ -81,6 +84,7 @@ body{
 	font-size: 1.4em;
 	color: black;
 	overflow: hidden;
+	margin-top: 20px;
 }
 
 .s-desc {
