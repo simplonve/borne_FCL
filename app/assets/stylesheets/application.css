@@ -82,7 +82,7 @@ body{
 	margin: 5%;
 	font-family: Arial;
 	font-style: bold;
-	font-size: 1.4em;
+	font-size: 1em;
 	color: black;
 	overflow: hidden;
 	margin-top: 20px;
@@ -113,6 +113,6 @@ body{
 }
 
 .movie-title{
-	font-size : 1.8em;
+	font-size : 1.3em;
 	padding-top: 2%;
 }
