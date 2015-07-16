@@ -1,5 +1,3 @@
-== README
-
 This application, developed with Ruby on Rails for the International Festival du Cinéma Libre, is aimed to let users to stream movies and download them.
 
 # Getting Started
