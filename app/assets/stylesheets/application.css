@@ -27,6 +27,7 @@ body{
 
 .container-fluid{
 	margin : 0 2%;
+	width:100%;
 }
 
 .navbar-header{
@@ -115,4 +116,16 @@ body{
 .movie-title{
 	font-size : 1.3em;
 	padding-top: 2%;
+}
+
+
+.player{
+	/*text-align: center;*/
+	width: 60%;
+	float:left;
+}
+
+.fiche{
+	width: 20%;
+	float:left;
 }
