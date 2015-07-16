@@ -4,10 +4,9 @@
 .container
   .row
     .col-md-5
-      %h3 Titre du film 1
+      %h3 Titre du film 
       .player
-        %video{:autobuffer => "", :controls => "", :height => "360", :src => "/home/mlt07/Bureau/test_videos/fish.mp4", :type => "video/mp4", :width => "640"}
-          %a{:href => "/home/mlt07/Bureau/test_videos/fish.mp4"} télécharger la vidéo
+        = video_tag "Reportage_France3.mp4", :autobuffer => "", :controls => true, :height => "360", :type => "video/mp4", :width => "640"
         %hr
   .col-md-1
   .col-md-5
