@@ -9,6 +9,11 @@ class MoviesController < ApplicationController
 	def show
 		@movie = Movie.find(params[:id])
 	end
+	def download
+
+		send_file("#{Rails.root}/app/assets/videos/Reportage_France3.mp4")
+	end
+	
 	private
 	def movie_params
 		params.require(:movie).permit(:filmmaker_name, :production_name, :title, :genre, :duration, :language, :subtitle, :format, :synopsis, :licence, :sharing, :url)
