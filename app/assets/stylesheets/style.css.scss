@@ -1,10 +1,11 @@
  @font-face {
- 	font-family: 'Bariol_Bold';
- 	src: url('Bariol_Bold/Bariol_Bold.eot');
- 	src: local('☺'), url('Bariol_Bold/Bariol_Bold.woff') format('woff'), url('Bariol_Bold/Bariol_Bold.ttf') format('truetype'), url('Bariol_Bold/Bariol_Bold.svg') format('svg');
+ 	font-family: 'adam';
+ 	src: url('adam/adam.eot');
+ 	src: local('☺'), url('adam/adam.woff') format('woff'), url('adam/adam.ttf') format('truetype'), url('adam/adam.svg') format('svg');
  	font-weight: normal;
  	font-style: normal;
  }
+
 
 
 body {
@@ -36,6 +37,7 @@ body {
 }
 
 .form_tag {
+	font-family:'adam';
 	width: 50%;
 	display: flex;
 	justify-content: flex-end;
@@ -43,9 +45,13 @@ body {
 }
 
 .select_tag {
+	font-family:'adam';
 	width: 25%;
 	margin-right: 3%;
 	margin-left: 1%;
+}
+.submit-btn {
+	font-family:'adam';
 }
 
 .submit-btn:hover {
@@ -69,9 +75,9 @@ body {
 	min-width: 150px;
 	height: 200px;
 	margin: 2.3%;
-	font-family: Arial;
+	font-family: 'adam';
 	font-style: bold;
-	font-size: 1em;
+	font-size: 0.85em;
 	color: black;
 	overflow: hidden;
 	margin-top: 30px;
@@ -101,7 +107,7 @@ body {
 	opacity: 0.7;
 }
 .genre {
-	margin-top: 10px;
+	margin-top: 15%;
 }
 
 .movie-title{
@@ -111,5 +117,5 @@ body {
 
 h1, h2 {
 	padding-left: 2%; 
-	font-family: 'Bariol_Bold';
+	font-family: 'adam';
 }
