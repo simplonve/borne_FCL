@@ -15,6 +15,23 @@
  */
 
 
+@font-face {
+	font-family:'adam';
+	src: url(asset-path('font/adam/adam.eot'));
+	src: local('☺'), url(asset-path('font/adam/adam.woff')) format('woff'), url(asset-path('font/adam/adam.ttf')) format('truetype'), url(asset-path('font/adam/adam.svg')) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url(asset-path('font/Montserrat-Bold.eot'));
+	src: local('☺'), url(asset-path('font/Montserrat-Bold.woff')) format('woff'), url(asset-path('font/Montserrat-Bold.ttf')) format('truetype'), url(asset-path('font/Montserrat-Bold.svg')) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 *{
 	list-style-type: none;
 }
@@ -23,10 +40,12 @@ body{
 	width: 100%;
 	margin : 0;
 	height: 100%;
+	font-family:'Montserrat-Bold';
 }
 
 .container-fluid{
 	margin : 0 2%;
+	width:100%;
 }
 
 .navbar-header{
@@ -115,4 +134,18 @@ body{
 .movie-title{
 	font-size : 1.3em;
 	padding-top: 2%;
+}
+
+
+.player{
+	/*text-align: center;*/
+	width: 60%;
+	float:left;
+}
+
+.fiche{
+	width: 15%;
+	float:left;
+	margin-right: 9%;
+	
 }
