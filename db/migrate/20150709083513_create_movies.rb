@@ -5,7 +5,7 @@ class CreateMovies < ActiveRecord::Migration
     	t.string :production_name
     	t.string :title
     	t.string :genre
-    	t.time :duration
+    	t.string :duration
     	t.string :language
     	t.string :subtitle
     	t.string :format

@@ -7,7 +7,9 @@
 				.genre
 					%p Genre: #{m.genre}
 					.language
-						%p Language: #{m.language}		
+						%p Language: #{m.language}	
+						.duration
+							%p Duration: #{m.duration} min	
 - if @movies.empty?
 	%h2 No result
 - if @movies.empty?
