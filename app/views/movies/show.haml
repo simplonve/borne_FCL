@@ -1,16 +1,4 @@
-%h1 Film
 %h1= @movie.title
-
-.container
-  .row
-    .col-md-5
-      = link_to "click here to download", controller: "movies", action: "download"
-      .player
-        = video_tag "Reportage_France3.mp4", :autobuffer => true, :controls => true, :height => "360", :type => "video/mp4", :width => "640"
-        %hr
-  .col-md-1
-  .col-md-5
-    %h3 Synopsis
-    %p Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-    .flag
-    .genre
+= link_to "click here to download", controller: "movies", action: "download"
+.player
+  = video_tag "Reportage_France3.mp4", :autobuffer => true, :controls => true, :height => "360", :type => "video/mp4", :width => "640"
