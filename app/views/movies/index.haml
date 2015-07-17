@@ -4,8 +4,10 @@
 		.box
 			%a{:href =>"/movies/#{m.id}", :class =>'s-desc'}
 				.movie-title #{m.title}
-				%p #{m.genre}
-				%p #{m.language}		
+				.genre
+					%p Genre: #{m.genre}
+					.language
+						%p Language: #{m.language}		
 - if @movies.empty?
 	%h2 No result
 - if @movies.empty?
@@ -14,5 +16,9 @@
 			.box
 				%a{:href =>"/movies/#{m.id}", :class =>'s-desc'}
 					.movie-title  #{m.title}
-					%p #{m.genre}
-					%p #{m.language}
+					.genre
+						%p Genre: #{m.genre}
+						.language
+							%p Language: #{m.language}
+							.duration
+								%p Duration: #{m.duration} min
