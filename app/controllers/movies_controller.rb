@@ -10,8 +10,8 @@ class MoviesController < ApplicationController
 		@movie = Movie.find(params[:id])
 	end
 	def download
-
-		send_file("#{Rails.root}/app/assets/videos/Reportage_France3.mp4")
+		@movie = Movie.find(params[:id])
+		send_file("/../../../../home/math/Vidéos/#{@movie.url}")
 	end
 	
 	private
