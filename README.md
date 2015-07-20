@@ -8,3 +8,11 @@ This application, developed with Ruby on Rails for the International Festival du
 ```
 gem install rails
 ```
+
+# Where to put the movies files ?
+
+Create a videos_2015 folders on your home directory
+```
+~ mkdir videos_2015
+```
+And place your movies files into
