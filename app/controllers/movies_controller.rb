@@ -9,9 +9,17 @@ class MoviesController < ApplicationController
 	def show
 		@movie = Movie.find(params[:id])
 	end
+	def watch
+		@movie = Movie.find(params[:id])
+		line = Cocaine::CommandLine.new("vlc /home/sophie/projets/videos/#{@movie.url}")
+		line.run
+		render 'show'
+	end
 	def download
-
-		send_file("#{Rails.root}/app/assets/videos/Reportage_France3.mp4")
+		@movie = Movie.find(params[:id])
+		line =  Cocaine::CommandLine.new("cp /home/sophie/projets/videos/#{@movie.url} /media/sophie/")
+		line.run
+		render 'show'
 	end
 	
 	private

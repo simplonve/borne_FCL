@@ -2,7 +2,7 @@
 .movie_container 
   %h1= @movie.title
   .player_info
-    = video_tag "Reportage_France3.mp4", :autobuffer => true, :controls => true, :height => "360", :type => "video/mp4", :width => "640"
+    = link_to "watch the video", {:controller => "movies", :action => "watch"}
     .movie_info
       %h3= @movie.filmmaker_name, = @movie.language
     = link_to image_tag("circle_download.png"), {:controller => "movies", :action => "download"}, {:class => "download-button"}
