@@ -17,9 +17,7 @@ class MoviesController < ApplicationController
 	end
 	def download
 		@movie = Movie.find(params[:id])
-		line =  Cocaine::CommandLine.new("cp /home/sophie/projets/videos/#{@movie.url} /media/sophie/")
-		line.run
-		render 'show'
+		send_file("/../../../../home/math/Vidéos/#{@movie.url}")
 	end
 	
 	private
