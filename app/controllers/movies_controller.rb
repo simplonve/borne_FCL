@@ -11,7 +11,7 @@ class MoviesController < ApplicationController
 	end
 	def download
 		@movie = Movie.find(params[:id])
-		send_file("/../../../../home/math/Vidéos/#{@movie.url}")
+		send_file("/../../../../home/math/Vidéos/videos_FCL_2015/#{@movie.url}")
 	end
 	
 	private
