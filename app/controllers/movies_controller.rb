@@ -11,13 +11,14 @@ class MoviesController < ApplicationController
 	end
 	def watch
 		@movie = Movie.find(params[:id])
-		line = Cocaine::CommandLine.new("vlc --fullscreen '/home/sophie/projets/videos/#{@movie.url}'")
+		line = Cocaine::CommandLine.new("vlc --fullscreen $HOME'/videos_2015/#{@movie.url}'")
 		line.run
 		render 'show'
 	end
 	def download
 		@movie = Movie.find(params[:id])
-		send_file("/../../../../home/sophie/projets/videos/#{@movie.url}")
+		@file = open(ENV['HOME']+"/videos_2015/#{@movie.url}")
+		send_file @file
 	end
 	
 	private
