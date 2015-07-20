@@ -18,7 +18,7 @@ class MoviesController < ApplicationController
 	def download
 		@movie = Movie.find(params[:id])
 		@file = open(ENV['HOME']+"/videos_2015/#{@movie.url}")
-		send_data @file, :type => "video/mp4", :filename => "#{@movie.url}"
+		send_file @file
 	end
 	
 	private
