@@ -14,10 +14,23 @@
 	align-items: center;
 }
 
-.download-button{
-	width: 10%;
+.link_button1{
+	width: 16%;
 	padding-left: 5%;
 }
+
+.link_button2{
+	width: 16%;
+	padding-left: 5%;
+}
+ .watch{
+ 	 width: 60%;
+ }
+
+.download{
+	width: 80%;
+}
+
 
 .movie_info{
 	width: 10%;
@@ -33,3 +46,4 @@
 video{
 	z-index: 2;
 }
+
