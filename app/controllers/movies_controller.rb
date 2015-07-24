@@ -1,10 +1,10 @@
 class MoviesController < ApplicationController
 	def index
-		if params[:genre] == ""
-			params[:genre] = nil
+		if params[:q].nil?
+		@movies = Movie.all
+		else
+		@movies = Movie.search params[:q]
 		end
-		@movies = Movie.where(filter_params.compact)
-		@other_movies = Movie.all if @movies.empty?
 	end
 	def show
 		@movie = Movie.find(params[:id])
@@ -19,6 +19,8 @@ class MoviesController < ApplicationController
 		@movie = Movie.find(params[:id])
 		@file = open(ENV['HOME']+"/videos_2015/#{@movie.url}")
 		send_file @file
+	end
+	def search
 	end
 	
 	private
