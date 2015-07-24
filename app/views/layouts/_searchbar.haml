@@ -8,8 +8,8 @@
 		= submit_tag "Search", :name => nil, :class =>'submit-btn'
 
 
-	= form_for '/', method: :get do |f|
-		= f.label "Search for"
+	= form_tag '/', :method => 'get', :action => 'index' do
+		= label_tag :"Search for"
 		= text_field_tag :q, params[:q]
 		= submit_tag "Go", name: nil
 
