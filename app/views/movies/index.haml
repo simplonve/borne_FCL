@@ -1,12 +1,12 @@
 .box-container
 	- @movies.each do |m|
-		.box{:style => "background-image: url(#{image_path(m.url[0...-3]<<"png")})"}
+		.box{:style => "background-image: url(assets/#{m.img_url})"}
 			%a{:href =>"/movies/#{m.id}", :class =>'s-desc'}
 				.movie-title #{m.title}
 				.genre
 					%p Genre: #{m.genre}
-					.language
-						%p Country: #{m.language}	
+					.country
+						%p Country: #{m.country}	
 						.duration
 							%p Duration: #{m.duration} min	
 - if @movies.empty?
@@ -19,7 +19,7 @@
 					.movie-title  #{m.title}
 					.genre
 						%p Genre: #{m.genre}
-						.language
-							%p Country: #{m.language}
+						.country
+							%p Country: #{m.country}
 							.duration
 								%p Duration: #{m.duration} min

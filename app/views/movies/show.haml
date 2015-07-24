@@ -4,6 +4,6 @@
   .player_info
     = link_to "watch the video", {:controller => "movies", :action => "watch"}
     .movie_info
-      %h3= @movie.filmmaker_name, = @movie.language
+      %h3= @movie.filmmaker_name, = @movie.country
     = link_to image_tag("circle_download.png"), {:controller => "movies", :action => "download"}, {:class => "download-button"}
     

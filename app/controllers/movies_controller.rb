@@ -20,14 +20,12 @@ class MoviesController < ApplicationController
 		@file = open(ENV['HOME']+"/videos_2015/#{@movie.url}")
 		send_file @file
 	end
-	def search
-	end
-	
+
 	private
 	def movie_params
-		params.require(:movie).permit(:filmmaker_name, :production_name, :title, :genre, :duration, :language, :subtitle, :format, :synopsis, :licence, :sharing, :url)
+		params.require(:movie).permit(:filmmaker_name, :production_name, :title, :genre, :duration, :country, :subtitle, :format, :synopsis, :licence, :sharing, :url)
 	end
 	def filter_params
-		params.permit(:filmmaker_name, :production_name, :title, :genre, :duration, :language, :subtitle, :format, :synopsis, :licence, :sharing, :url)
+		params.permit(:filmmaker_name, :production_name, :title, :genre, :duration, :country, :subtitle, :format, :synopsis, :licence, :sharing, :url)
 	end	
 end

@@ -1,8 +1,8 @@
 .navbar-header
 	= link_to image_tag('logo.png'), 'http://festivalducinemalibre.com/', :target => 'blank', :class =>'logo'	   
 	= form_tag '/', :class => 'form_tag', :method => 'get' do
-		= label_tag :"Language: "
-		= select_tag :language, options_for_select([ "", "german", "english", "french" ], params[:language]), :class =>'select_tag'
+		= label_tag :"country: "
+		= select_tag :country, options_for_select([ "", "german", "english", "french" ], params[:country]), :class =>'select_tag'
 		= label_tag :"Genre: "
 		= select_tag :genre, options_for_select(["", "documentary", "fiction", "animation", "sound" ], params[:genre]), :class =>'select_tag'
 		= submit_tag "Search", :name => nil, :class =>'submit-btn'
