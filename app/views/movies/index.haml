@@ -1,6 +1,6 @@
 .box-container
 	- @movies.each do |m|
-		.box
+		.box{:style => "background-image: url(#{image_path(m.url[0...-3]<<"png")})"}
 			%a{:href =>"/movies/#{m.id}", :class =>'s-desc'}
 				.movie-title #{m.title}
 				.genre
