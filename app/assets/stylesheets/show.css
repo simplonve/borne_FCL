@@ -58,7 +58,6 @@
 
 .column2{
 	border:1px solid blue;
-	/*width:50%;*/
 	width: 400px;
     height: 300px;
 }
@@ -79,7 +78,7 @@ h3{
 
 
 .button_download{
-	margin:auto;
+	
 }
 
 .download{
