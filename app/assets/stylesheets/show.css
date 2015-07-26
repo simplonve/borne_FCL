@@ -4,7 +4,7 @@
 	flex-direction : column;
 	justfy-content: center;
 	align-items: center;
-	background-color: blue;
+	
 }
 
 .player_info{
@@ -14,14 +14,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: yellow;
+	
 }
 
 
 .column1{
 	border:1px solid red;
-	/*width:50%;
-	height: 50%;*/
 	width : 400px;
     height : 300px;
 	display:flex;
@@ -29,21 +27,28 @@
 	
 }
 
-
-/*.column1 .image_film{
-    margin: auto;
-}*/
+.image_film{
+	width: 70%;
+	height: 51%;
+	margin:auto;
+}
 
 .cinema{
-	width:70%;
+	width:100%;
 	margin:auto;
 	
 
 }
 
+.button_watch{
+
+}
+
  .watch{
  	 width: 20%;
- 	 
+ 	 margin: auto;
+  	 display: block;
+  	 border: 1px solid black;
  }
 
 .link_button1{
@@ -58,23 +63,36 @@
     height: 300px;
 }
 
-.text_film{
-	width: 70%;
-	margin:auto;
-	border:1px solid black;
+h3{
+	text-align: center;
 }
 
-/*.button_box{
-	width: 10%;
-}*/
+.text_film{
+	width: 70%;
+	height: 52%;
+	margin:auto;
+	margin-top: 7%;
+	padding-left: 2%;
+	background-color: black;
+	color:white;
+}
+
+
+.button_download{
+	margin:auto;
+}
 
 .download{
 	width: 30%;
+	margin: auto;
+	margin-top: 13%;
+    display: block;
+    border: 1px solid black;
+}
 }
 
 .link_button2{
 	width: 16%;
-/*	padding-left: 5%;*/
 	margin:auto;
 }
 
