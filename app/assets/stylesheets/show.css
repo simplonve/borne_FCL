@@ -21,7 +21,7 @@
 .column1{
 	border:1px solid red;
 	width : 400px;
-    height : 300px;
+    	height : 300px;
 	display:flex;
 	flex-direction:column;
 	
@@ -59,7 +59,7 @@
 .column2{
 	border:1px solid blue;
 	width: 400px;
-    height: 300px;
+    	height: 300px;
 }
 
 h3{
@@ -85,16 +85,15 @@ h3{
 	width: 30%;
 	margin: auto;
 	margin-top: 13%;
-    display: block;
-    border: 1px solid black;
+    	display: block;
+    	border: 1px solid black;
 }
-}
+
 
 .link_button2{
 	width: 16%;
 	margin:auto;
 }
-
 
 
 video{
