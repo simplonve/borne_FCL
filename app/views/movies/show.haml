@@ -12,17 +12,11 @@
     .column2
       .text_film
         %h3 Fiche technique du film
-        %p filemaker: @movie.filemaker_name
-        %p country: @movie.language
-        %p duration: @movie.duration
+        %p filemaker: #{@movie.filmmaker_name}
+        %p country: #{@movie.language}
+        %p duration: #{@movie.duration}
         %p
 
       .button_download
-        = link_to image_tag("download.png", :class => "download"), {:controller => "movies", :action => "download"}, {:class => "link_button2"}
+        = link_to image_tag("download.png", :class => "download"), { :controller => "movies", :action => "download"}, :target => "_blank"
 
-
-    / .player_info
-    / = link_to image_tag("watch.png", :class => "watch"), {:controller => "movies", :action => "watch"}, {:class => "link_button1"}
-   
-    / = link_to image_tag("download.png", :class => "download"), {:controller => "movies", :action => "download"}, {:class => "link_button2"}
-    / 
