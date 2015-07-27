@@ -1,44 +1,3 @@
-<<<<<<< HEAD
-id,filmmaker_name,production_name,title,genre,duration,language,subtitle,format,synopsis,licence,sharing,url
-1,Erik Barzman,,Analogue (Analog),fiction,4,France,yes,,,no copyright,yes,Analog-Eng-EricBarzman.mp4
-2,Ombline Ley,,Cavernicole,doc,30,France,yes,,,?,yes,Cavernicole-Englishsub-HD.mp4
-3,Lu Beilin,,"China, I love you",doc,40,France,yes,,,art libre,yes,
-4,Claire Désérable,,Ellie,doc,19,France,yes,,,CC 3 / school,yes,
-5,Flore Bleiberg,,Entre corps,fic,12,Belgium,not yet,,,no copyright,yes,
-6,Jen Debauche,,L'Oeil du Cyclope,doc,50,Belgium,---,,,no copyright,yes,
-7,Pierre Liebaert,,Libre maintenant Femme absente (Free Now Wife Away),doc,11,Belgium,yes,,,no copyright,yes,
-8,Collective creation,,Lou Bëth Xayma (What eyes are pretending to see),doc anim,14,Belgium,yes,,,copyright,yes but not internet,
-9,Christophe Karabache,,New Blood: Wild Chronicle of Beirut,fic / doc,11,France,yes,,,autoprod,yes,
-10,Collective Les Scotcheuses,,No Ouestern,fic,27,France,---,,,no copyright,yes,
-11,"Mehdi Ahoudig, Anna Salzberg",,On ira à Neuilly Inch'Allah (We'll go to Neuilly Inch'Allah),exp / doc,20,France,yes,,,prod GREC,yes but not after on internet,
-12,Pourya Ezzati Pour,,Pale Blue Dot,fic,11,Germany,yes,,,"""SCALA Programmkino Lüneburg""",no,
-13,"Lise Bellynck, Frédéric Aspisi",,"Peaux Noires Masques Blancs (Black Skins, White Masks)",doc,56,France,yes,,,no copyright,yes,
-14,Jérome von Zilw,,Printemps (Spring),doc,27,France,yes,,,prod,yes only for pro ! ,
-15,Collective Les Scotcheuses,,Sème ton western,fic / doc / exp,24,France,---,,,no copyright,yes,
-16,Anaïs Ibert,,Siboney,fic,11,France,yes,,,no copyright,yes,
-17,Bruno Rocchi,,The Limb of Morocco,doc,40,Italy,yes,,,CC ?,yes,
-18,Mersiha Husagic,,Was kommt kommt (What Comes Comes),doc,25,Germany,yes,,,no copyright,yes,
-19,"Noémi Aubry, Anouck Mangeat, Gurkan Aslan",,Yolunuz Açik Olsun,doc,8,France,yes,,,no copyright,yes,
-20,Mélodie Grumberg,,A Fish in the River,fiction,4,France,yes,,,art libre,yes,
-21,Myriam Fontaine,,A New Life,fic,2,France,yes,,,no copyright,yes,
-22,Jung-Chul Hur,,Alpha & Omega,exp,6,South Korea,---,,,autoprod,no,
-23,Des paquets pour la bête,,Ce qui bat,fic,75,France,yes,,,no copyright,yes,
-24,Louisa Benrezzak,,Danse sur moi (Dance on me) version courte,doc,5,France,?,,,?,?,
-25,Pierre-Yves Dalka,,Der Rest vom Fest (The Rest of the Fest),doc,7,Germany,yes,,,CC 4,yes,
-26,Flore Bleiberg,,Exotisme,video clip,4,Belgium,---,,,no copyright,yes,
-27,"Eva Chambon, Samuel Tellier",,Extra-Tourist,fic,4,France,---,,,CC ?,yes,
-28,"Emmanuel Piton, Pierre-Manuel Lemarchand",,Fovea,exp,9,France,---,,,no copyright,yes,
-29,Jeffrey Dunn Rovinelli,,Fuck Work,fic,12,USA,yes,,,CC 5,yes,
-30,Anna Mila Stella,,I Hate Shakespeare,fic,8,Italy,,,,copyzero,yes,
-31,Kopfschlag,,Kopfschlag,anim / exp,10,France,---,,,CC ?,yes,
-32,Gaston Igounet,,L'Autre Silence,fic,11,France,yes,,,no copyright,yes,
-33,"Noémi Aubry, Wisam Al Jafari, Tamador Abu Laban, Firas Ramadan",,La Machine d'enregistrement,doc,9,France,yes,,,no copyright,yes,
-34,Thivolle et Mortada,,Le Mirage et la Pierre,doc,15,France,,,,No copyright / Art Libre,yes / no ?,
-35,Bruno Rocchi,,Mount Gourougou,doc,9,Italy,,,,CC ?,yes,
-36,Frédérique Menant,,Mue(s),exp,10,France,---,,,no copyright,yes,
-37,,,,,,,,,,,,
-38,,,,,,,,,,,,
-=======
 id,filmmaker_name,production_name,title,genre,duration,country,subtitle,format,synopsis,licence,sharing,url,img_url
 20,Mélodie Grumberg,,A Fish in the River,fiction,4,France,yes,,,art libre,yes,,afishintheriver.png
 21,Myriam Fontaine,,A New Life,fic,2,France,yes,,,no copyright,yes,,anewlife.png
@@ -78,4 +37,3 @@ id,filmmaker_name,production_name,title,genre,duration,country,subtitle,format,s
 19,"Noémi Aubry, Anouck Mangeat, Gurkan Aslan",,Yolunuz Açik Olsun,doc,8,France,yes,,,no copyright,yes,,yolunuz.png
 37,,,,,,,,,,,,,
 38,,,,,,,,,,,,,
->>>>>>> img
