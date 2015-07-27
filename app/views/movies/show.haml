@@ -15,4 +15,4 @@
         %p duration: @movie.duration
         %p
       .button_download
-        = link_to image_tag("download.png", :class => "download"), {:controller => "movies", :action => "download"}, {:class => "link_button2"}
+        = link_to image_tag("download.png", :class => "download"), {:controller => "movies", :action => "download"}, :target => "_blank"
