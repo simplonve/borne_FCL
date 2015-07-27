@@ -1,26 +1,26 @@
 .box-container
 	%h2 Nombre de résultats : #{@movies.count}
 	- @movies.each do |m|
-		.box
+		.box{:style => "background-image: url(assets/#{m.img_url})"}
 			%a{:href =>"/movies/#{m.id}", :class =>'s-desc'}
 				.movie-title #{m.title}
 				.genre
 					%p Genre: #{m.genre}
-					.language
-						%p Country: #{m.language}	
+					.country
+						%p Country: #{m.country}	
 						.duration
 							%p Duration: #{m.duration} min	
+
 - if @movies.empty?
 	%h2 No result
-- if @movies.empty?
 	.box-container
 		- @other_movies.each do |m|
-			.box
+			.box{:style => "background-image: url(assets/#{m.img_url})"}
 				%a{:href =>"/movies/#{m.id}", :class =>'s-desc'}
 					.movie-title  #{m.title}
 					.genre
 						%p Genre: #{m.genre}
-						.language
-							%p Country: #{m.language}
+						.country
+							%p Country: #{m.country}
 							.duration
 								%p Duration: #{m.duration} minsult

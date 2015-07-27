@@ -3,7 +3,15 @@ class MoviesController < ApplicationController
 		@movies = Movie.all
 	end
 	def search
-		@movies = Movie.where(filter_params.compact)
+		if params[:coutry] == ""
+			params[:country] = nil
+		end
+		if params[:genre] == ""
+			params[:genre] = nil
+		end
+		@movies = Movie.where(nil) # creates an anonymous scope
+ 		@movies = @movies.genre(params[:genre]) if params[:genre].present?
+ 		@movies = @movies.country(params[:country]) if params[:country].present?
 		@other_movies = Movie.all if @movies.empty?
 		render 'results'
 	end
