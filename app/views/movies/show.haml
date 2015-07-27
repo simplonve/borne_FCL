@@ -1,14 +1,12 @@
 
 .movie_container 
-  %h1= @movie.title
-  
+  %h1= @movie.title  
   .player_info
     .column1
       .image_film 
         =image_tag("cinema.jpg", :class => "cinema")
       .button_watch
         = link_to image_tag("watch.png", :class => "watch"), {:controller => "movies", :action => "watch"}, {:class => "link_button1"}
-      
     .column2
       .text_film
         %h3 Fiche technique du film
@@ -16,13 +14,5 @@
         %p country: @movie.language
         %p duration: @movie.duration
         %p
-
       .button_download
         = link_to image_tag("download.png", :class => "download"), {:controller => "movies", :action => "download"}, {:class => "link_button2"}
-
-
-    / .player_info
-    / = link_to image_tag("watch.png", :class => "watch"), {:controller => "movies", :action => "watch"}, {:class => "link_button1"}
-   
-    / = link_to image_tag("download.png", :class => "download"), {:controller => "movies", :action => "download"}, {:class => "link_button2"}
-    / 
