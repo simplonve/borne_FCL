@@ -2,7 +2,7 @@
 	= link_to image_tag('logo.png'), 'http://festivalducinemalibre.com/', :target => 'blank', :class =>'logo'	   
 	= form_tag '/results', :class => 'form_tag', :method => 'get' do
 		= label_tag :"Country: "
-		= select_tag :language, options_for_select([ "Germany", "USA", "France" ], params[:language]), :class =>'select_tag', :include_blank => true
+		= select_tag :country, options_for_select([ "Germany", "USA", "France" ], params[:country]), :class =>'select_tag', :include_blank => true
 		= label_tag :"Genre: "
 		= select_tag :genre, options_for_select(["fic", "doc" ], params[:genre]), :class =>'select_tag', :include_blank => true
 		= submit_tag "Search", :name => nil, :class =>'submit-btn'
