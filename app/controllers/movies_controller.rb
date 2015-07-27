@@ -14,7 +14,7 @@ class MoviesController < ApplicationController
 		@movie = Movie.find(params[:id])
 		line = Cocaine::CommandLine.new("vlc --fullscreen $HOME'/videos_2015/#{@movie.url}'")
 		line.run
-		redirect_to 'show'
+		render 'show'
 	end
 	def download
 		@movie = Movie.find(params[:id])

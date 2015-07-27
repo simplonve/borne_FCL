@@ -9,12 +9,13 @@ csv.each do |row|
   movie.title = row.to_hash["title"] 
   movie.genre = row.to_hash["genre"] 
   movie.duration = row.to_hash["duration"] 
-  movie.language = row.to_hash["language"] 
+  movie.country = row.to_hash["country"] 
   movie.subtitle = row.to_hash["subtitle"] 
   movie.format = row.to_hash["format"] 
   movie.synopsis = row.to_hash["synopsis"] 
   movie.licence = row.to_hash["licence"] 
   movie.sharing = row.to_hash["sharing"] 
-  movie.url = row.to_hash["url"] 
+  movie.url = row.to_hash["url"]
+  movie.img_url =  row.to_hash["img_url"]
   movie.save
 end

@@ -6,13 +6,14 @@ class CreateMovies < ActiveRecord::Migration
     	t.string :title
     	t.string :genre
     	t.string :duration
-    	t.string :language
+    	t.string :country
     	t.string :subtitle
     	t.string :format
     	t.text :synopsis
     	t.string :licence
     	t.boolean :sharing
-    	t.string :url	
+    	t.string :url
+        t.string :img_url	
     t.timestamps null: false
     end
   end
