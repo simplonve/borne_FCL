@@ -95,7 +95,7 @@ h3 {
 }
 
 .download{
-	width: 35%;
+	width: 40%;
 	margin: auto;
 	margin-top: 12%;
   margin-left: 20%;
@@ -110,7 +110,4 @@ h3 {
 }
 
 
-video{
-	z-index: 2;
-}
 
