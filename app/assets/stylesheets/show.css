@@ -45,12 +45,6 @@
 	-webkit-box-shadow: 2px 3px 5px 3px #5c5b5c;
   -moz-box-shadow: 2px 3px 5px 3px #5c5b5c;
   box-shadow: 2px 3px 5px 3px #5c5b5c;
-	
-
-}
-
-.button_watch {
-
 }
 
  .watch {
@@ -58,8 +52,7 @@
  	margin: auto;
  	margin-top: 5%;
   display: block;
-  outline-style: none;
-  	 
+  outline-style: none;	 
  }
 
 .link_button1 {
@@ -96,8 +89,7 @@ h3 {
 	margin-top: 12%;
   margin-left: 20%;
   display: block;
-  outline-style: none;
-    
+  outline-style: none;   
 }
 
 .link_button2 {
@@ -110,3 +102,8 @@ a:focus
 outline:0;
 } 
 
+h2 {
+	width: 100%;
+	/*margin-bottom: -40%;*/
+	padding-left: 2%;
+}

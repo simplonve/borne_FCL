@@ -1,5 +1,5 @@
 .box-container
-	%h2 Nombre de résultats : #{@movies.count}
+	%h2 Results: #{@movies.count} 
 	- @movies.each do |m|
 		.box{:style => "background-image: url(assets/#{m.img_url})"}
 			%a{:href =>"/movies/#{m.id}", :class =>'s-desc'}
@@ -12,7 +12,6 @@
 							%p Duration: #{m.duration} min	
 
 - if @movies.empty?
-	%h2 No result
 	.box-container
 		- @other_movies.each do |m|
 			.box{:style => "background-image: url(assets/#{m.img_url})"}
