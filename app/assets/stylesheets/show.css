@@ -19,18 +19,24 @@
 
 
 .column1{
+	margin-top: 7%;
 	margin-left: 6%;
 	width : 400px;
-    height : 300px;
+    height : 310px;
 	display:flex;
 	flex-direction:column;
 	
 }
 
-.image_film{
+.image_film {
+	background-size: 120%;
+	background-repeat: no-repeat;
 	width: 100%;
-  	height: 52%;
+	height: 100%;
 	margin:auto;
+	-webkit-box-shadow: 2px 3px 5px 3px #5c5b5c;
+  	-moz-box-shadow: 2px 3px 5px 3px #5c5b5c;
+  	box-shadow: 2px 3px 5px 3px #5c5b5c;
 }
 
 .cinema{
@@ -50,7 +56,7 @@
  .watch{
  	width: 25%;
  	margin: auto;
- 	margin-top: 20%;
+ 	margin-top: 5%;
   	display: block;
   	 
  }
