@@ -35,11 +35,11 @@
 	height: 100%;
 	margin:auto;
 	-webkit-box-shadow: 2px 3px 5px 3px #5c5b5c;
-  	-moz-box-shadow: 2px 3px 5px 3px #5c5b5c;
-  	box-shadow: 2px 3px 5px 3px #5c5b5c;
+  -moz-box-shadow: 2px 3px 5px 3px #5c5b5c;
+  box-shadow: 2px 3px 5px 3px #5c5b5c;
 }
 
-.cinema{
+.cinema {
 	width:100%;
 	margin:auto;
 	-webkit-box-shadow: 2px 3px 5px 3px #5c5b5c;
@@ -49,15 +49,16 @@
 
 }
 
-.button_watch{
+.button_watch {
 
 }
 
- .watch{
+ .watch {
  	width: 25%;
  	margin: auto;
  	margin-top: 5%;
   display: block;
+  outline-style: none;
   	 
  }
 
@@ -79,7 +80,7 @@ h3 {
 
 .text_film {
 	width: 75%;
-  height: 215px;
+  height: 214px;
   margin-top: -3%;
 	padding-left: 2%;
 	background-color: black;
@@ -89,25 +90,23 @@ h3 {
   box-shadow: 2px 3px 5px 3px #5c5b5c;
 }
 
-
-.button_download{
-	
-}
-
-.download{
+.download {
 	width: 40%;
 	margin: auto;
 	margin-top: 12%;
   margin-left: 20%;
   display: block;
+  outline-style: none;
     
 }
 
-
-.link_button2{
+.link_button2 {
 	width: 16%;
 	margin:auto;
 }
 
-
+a:focus
+{
+outline:0;
+} 
 
