@@ -18,15 +18,14 @@ ActiveRecord::Schema.define(version: 20150709083513) do
     t.string   "production_name"
     t.string   "title"
     t.string   "genre"
-    t.string   "duration"
-    t.string   "country"
+    t.time     "duration"
+    t.string   "language"
     t.string   "subtitle"
     t.string   "format"
     t.text     "synopsis"
     t.string   "licence"
     t.boolean  "sharing"
     t.string   "url"
-    t.string   "img_url"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end
