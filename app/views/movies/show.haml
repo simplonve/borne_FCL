@@ -6,7 +6,7 @@
       .image_film 
         =image_tag("#{@movie.img_url}", :class => "cinema")
       .button_watch
-        = link_to image_tag("watch.png", :class => "watch"), {:controller => "movies", :action => "watch"}, {:class => "link_button1"}
+        = link_to image_tag("watch.svg", :class => "watch"), {:controller => "movies", :action => "watch"}, {:class => "link_button1"}
     .column2
       .text_film
         %h3 Description
@@ -15,4 +15,4 @@
         %p Duration: #{@movie.duration} min
         %p
       .button_download
-        = link_to image_tag("download.png", :class => "download"), {:controller => "movies", :action => "download"}, :target => "_blank"
+        = link_to image_tag("download.svg", :class => "download"), {:controller => "movies", :action => "download"}, :target => "_blank"
