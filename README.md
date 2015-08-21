@@ -25,6 +25,7 @@ And place your movies files into
 
 Clone the repository on your folder. Then, run the following command :
 ```
+gem install bundler
 bundle install
 rake db:migrate
 rake db:seed
