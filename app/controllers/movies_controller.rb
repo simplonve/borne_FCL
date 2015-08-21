@@ -1,22 +1,17 @@
 class MoviesController < ApplicationController
 	def index
 		@movies = Movie.all
+		@tags = Movie.all.map{|x| x.tags}.compact
+		@tags = @tags.map{|x| x.split(", ")}.flatten.uniq
 	end
 	def search
-		if params[:coutry] == ""
-			params[:country] = nil
-		end
-		if params[:genre] == ""
-			params[:genre] = nil
-		end
-		@movies = Movie.where(nil) # creates an anonymous scope
- 		@movies = @movies.genre(params[:genre]) if params[:genre].present?
- 		@movies = @movies.country(params[:country]) if params[:country].present?
+		@movies = Movie.search_tags(params[:tag])
 		@other_movies = Movie.all if @movies.empty?
 		render 'results'
 	end
 	def show
 		@movie = Movie.find(params[:id])
+		@tags = @movie.tags
 	end
 	def watch
 		@movie = Movie.find(params[:id])

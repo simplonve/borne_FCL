@@ -9,6 +9,7 @@ Rails.application.routes.draw do
    get 'movies/:id/watch' => 'movies#watch'
 
     get '/results', to: 'movies#search'
+    get '/results/:tag', to: 'movies#search'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
