@@ -13,7 +13,8 @@ class CreateMovies < ActiveRecord::Migration
     	t.string :licence
     	t.boolean :sharing
     	t.string :url
-        t.string :img_url	
+        t.string :img_url
+        t.string :tags	
     t.timestamps null: false
     end
   end

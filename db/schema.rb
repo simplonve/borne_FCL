@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20150709083513) do
     t.boolean  "sharing"
     t.string   "url"
     t.string   "img_url"
+    t.string   "tags"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end

@@ -16,6 +16,7 @@ csv.each do |row|
   movie.licence = row.to_hash["licence"] 
   movie.sharing = row.to_hash["sharing"] 
   movie.url = row.to_hash["url"]
-  movie.img_url =  row.to_hash["img_url"]
+  movie.img_url =  row.to_hash["img_url"]  
+  movie.tags =  row.to_hash["tags"]
   movie.save
 end
