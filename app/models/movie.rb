@@ -1,6 +1,10 @@
 class Movie < ActiveRecord::Base
   scope :genre, -> (genre) { where genre: genre }
   scope :country, -> (country) { where country: country }
+  @titles = []
+  Movie.all.each do |m|
+    @titles << m.title
+  end
   def self.search_tags(param_tags)
   	movies_by_tag = []
   	Movie.all.each do |m|
