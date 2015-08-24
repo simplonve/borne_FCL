@@ -5,7 +5,8 @@ class MoviesController < ApplicationController
 		@tags = @tags.map{|x| x.split(", ")}.flatten.uniq
 	end
 	def search
-		@movies = Movie.search_tags(params[:tag])
+		@movies = Movie.search_param(params)
+		binding.pry
 		@other_movies = Movie.all if @movies.empty?
 		render 'results'
 	end
