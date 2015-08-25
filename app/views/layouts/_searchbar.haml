@@ -1,28 +1,8 @@
 .navbar-header
 	= link_to image_tag('logo.png'), '/', :class =>'logo'	   
 	= form_tag '/results', :class => 'form_tag', :method => 'get' do
-		= label_tag :"Country: "
-		= select_tag :country, options_for_select([ "Germany", "USA", "France", "Belgium" ], params[:country]), :class =>'select_tag', :include_blank => true
-		= label_tag :"Genre: "
-		= select_tag :genre, options_for_select(["fic", "doc", "exp" ], params[:genre]), :class =>'select_tag', :include_blank => true
-		= submit_tag "Search", :name => nil, :class =>'submit-btn'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	  
+		= label_tag :"Movies: "
+		= select_tag :title, options_for_select( Movie.all.map {|m| [ m.title, m.id ] }, params[:title]), :class =>'select_tag', :include_blank => true
+		= submit_tag "Search", :name => nil, :class =>'submit-btn'	  
 		   
 		     
