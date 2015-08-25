@@ -10,9 +10,9 @@
       .text_film
         %h3 Description
         %p Filmmaker: #{@movie.filmmaker_name}
-        / %p Size : #{@movie_size} Mo
+        %p #{@movie.synopsis}
         %p Duration: #{@movie.duration} min
-        %p Tags : #{@tags}
+        %p Year : #{@year}
       .button_download
         = link_to image_tag("download.svg", :class => "download"), {:controller => "movies", :action => "download"}, :target => "_blank"
 

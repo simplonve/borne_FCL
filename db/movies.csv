@@ -1,37 +1,37 @@
-id,filmmaker_name,production_name,title,genre,duration,country,subtitle,format,synopsis,licence,sharing,url,img_url,tags
-20,Mélodie Grumberg,,A Fish in the River,fiction,4,France,yes,,,art libre,yes,,afishintheriver.png,"Fiction, France, Art libre"
-21,Myriam Fontaine,,A New Life,fic,2,France,yes,,,no copyright,yes,,anewlife.png,"Fiction, France, No copyright"
-22,Jung-Chul Hur,,Alpha & Omega,exp,6,South Korea,---,,,autoprod,no,,alphaomega.png,"Experimental, South Korea, Autoproduction"
-1,Erik Barzman,,Analogue (Analog),fiction,4,France,yes,,,no copyright,yes,Analog-Eng-EricBarzman.mp4,Analog-Eng-EricBarzman.png,"Fiction, France, No copyright"
-2,Ombline Ley,,Cavernicole,doc,30,France,yes,,,?,yes,Cavernicole.mp4,Cavernicole.png,"Documentary, France"
-23,Des paquets pour la bête,,Ce qui bat,fic,75,France,yes,,,no copyright,yes,,Cequibat.png,"Fiction, France, No copyright"
-3,Lu Beilin,,"China, I love you",doc,40,France,yes,,,art libre,yes,,ChinaIloveyou.png,"Documentary, France , Art libre"
-24,Louisa Benrezzak,,Danse sur moi (Dance on me) version courte,doc,5,France,?,,,?,?,,dansesurmoi.png,
-25,Pierre-Yves Dalka,,Der Rest vom Fest (The Rest of the Fest),doc,7,Germany,yes,,,CC 4,yes,,derrestvomfest.png,
-4,Claire Désérable,,Ellie,doc,19,France,yes,,,CC 3 / school,yes,,ellie.png,
-5,Flore Bleiberg,,Entre corps,fic,12,Belgium,not yet,,,no copyright,yes,,entrecorrps.png,
-26,Flore Bleiberg,,Exotisme,video clip,4,Belgium,---,,,no copyright,yes,,exotisme.png,
-27,"Eva Chambon, Samuel Tellier",,Extra-Tourist,fic,4,France,---,,,CC ?,yes,,extra-tourist.png,
+id,filmmaker_name,production_name,title,genre,duration,country,subtitle,year,synopsis,licence,sharing,url,img_url,tags
+20,Mélodie Grumberg,,A Fish in the River,fiction,4,France,yes,,"A group of young people are hanging around after a night out, when one of them disappear from the bridge...",art libre,yes,,afishintheriver.png,"Fiction, France, Art libre"
+21,Myriam Fontaine,,A New Life,fic,2,France,yes,2015,In the middle of the night...,no copyright,yes,,anewlife.png,"Fiction, France, No copyright"
+22,Jung-Chul Hur,,Alpha & Omega,exp,6,South Korea,---,2000,"Alpha & Omega' is a meditative animated film which consists of pure abstract and geometric visual elements. A single moving element duplicates and multiplies itself, and produces constantly changing dynamic sequences. Like the Greek words 'Alpha' and 'Omega', the first and the last, the film has its conventional beginning and ending as a single channel film. However, throughout the entire sequences, the work explores and examines the infinite and endless manipulative nature of digital media.",autoprod,no,,alphaomega.png,"Experimental, South Korea, Autoproduction"
+1,Erik Barzman,,Analogue (Analog),fiction,4,France,yes,2014,"In the digital future, he is the last analog human being. But for how much longer...?",no copyright,yes,Analog-Eng-EricBarzman.mp4,Analog-Eng-EricBarzman.png,"Fiction, France, No copyright"
+2,Ombline Ley,,Cavernicole,doc,30,France,yes,2011,,?,yes,Cavernicole.mp4,Cavernicole.png,"Documentary, France"
+23,Des paquets pour la bête,,Ce qui bat,fic,75,France,yes,2013,,no copyright,yes,,Cequibat.png,"Fiction, France, No copyright"
+3,Lu Beilin,,"China, I love you",doc,40,France,yes,2014,,art libre,yes,,ChinaIloveyou.png,"Documentary, France , Art libre"
+24,Louisa Benrezzak,,Danse sur moi (Dance on me) version courte,doc,5,France,?,2013,,?,?,,dansesurmoi.png,
+25,Pierre-Yves Dalka,,Der Rest vom Fest (The Rest of the Fest),doc,7,Germany,yes,2015,,CC 4,yes,,derrestvomfest.png,
+4,Claire Désérable,,Ellie,doc,19,France,yes,2014,"Cavernicole' is the name of a specie that survives in an underground environment. Through the portrait of one character, the film meets three different worlds evolving on the edge of normality. A purposeless stroll through the darkness that ends up being a search for some sort of freedom and individualism.",CC 3 / school,yes,,ellie.png,
+5,Flore Bleiberg,,Entre corps,fic,12,Belgium,not yet,2013,"Three stories intertwine in a world - as Plato put it : where humans live, work, die, in ""the cellar""-reduced to the size of a neighbourhood. A political refutation of his famous allegory. A movie made on the principle of collage. Almost no direct sound is used, the dialogue is subtitled.",no copyright,yes,,entrecorrps.png,
+26,Flore Bleiberg,,Exotisme,video clip,4,Belgium,---,2015,,no copyright,yes,,exotisme.png,
+27,"Eva Chambon, Samuel Tellier",,Extra-Tourist,fic,4,France,---,2014,"In 8 Aug, 1966, it happened chinese culture revolution CCTV news reported this case. This event influenced the life of all chinese people. And then...",CC ?,yes,,extra-tourist.png,
 28,"Emmanuel Piton, Pierre-Manuel Lemarchand",,Fovea,exp,9,France,---,,,no copyright,yes,,fovea.png,
-29,Jeffrey Dunn Rovinelli,,Fuck Work,fic,12,USA,yes,,,CC 5,yes,,fuckwork.png,
+29,Jeffrey Dunn Rovinelli,,Fuck Work,fic,12,USA,yes,,The Oktoberfest in Munich by night - when the roller coasters are fast asleep and cleaning vans roam the earth.,CC 5,yes,,fuckwork.png,
 30,Anna Mila Stella,,I Hate Shakespeare,fic,8,Italy,,,,copyzero,yes,,ihateshakespeare.png,
 31,Kopfschlag,,Kopfschlag,anim / exp,10,France,---,,,CC ?,yes,,kopfschlag.png,
-32,Gaston Igounet,,L'Autre Silence,fic,11,France,yes,,,no copyright,yes,,l'autresilence.png ,
-6,Jen Debauche,,L'Oeil du Cyclope,doc,50,Belgium,---,,,no copyright,yes,,l'oeilducyclope.png,
+32,Gaston Igounet,,L'Autre Silence,fic,11,France,yes,,"Ellie is a short movie that allows the viewer to step into the shoes of an obsessed fan on her quest to find her idol and herself. She bluntly shares along the way her obsession, desirs and needs without any detours nor shame. Being fan at thirteen is normal, at twenty-five not so much.",no copyright,yes,,l'autresilence.png ,
+6,Jen Debauche,,L'Oeil du Cyclope,doc,50,Belgium,---,,"Diptych of an encounter: through bodies, through words.",no copyright,yes,,l'oeilducyclope.png,
 33,"Noémi Aubry, Wisam Al Jafari, Tamador Abu Laban, Firas Ramadan",,La Machine d'enregistrement,doc,9,France,yes,,,no copyright,yes,,lamachined'enregistrement.png,
 34,Thivolle et Mortada,,Le Mirage et la Pierre,doc,15,France,,,,No copyright / Art Libre,yes / no ?,,lemirageetlapierre.png,
 7,Pierre Liebaert,,Libre maintenant Femme absente (Free Now Wife Away),doc,11,Belgium,yes,,,no copyright,yes,,libremaintenant.png,
-8,Collective creation,,Lou Bëth Xayma (What eyes are pretending to see),doc anim,14,Belgium,yes,,,copyright,yes but not internet,,loubethxayma.png,
+8,Collective creation,,Lou Bëth Xayma (What eyes are pretending to see),doc anim,14,Belgium,yes,,Extra-tourist comes there to apologize to have blown up the planet.,copyright,yes but not internet,,loubethxayma.png,
 35,Bruno Rocchi,,Mount Gourougou,doc,9,Italy,,,,CC ?,yes,,mountgourougou.png,
 36,Frédérique Menant,,Mue(s),exp,10,France,---,,,no copyright,yes,,mue.png,
-9,Christophe Karabache,,New Blood: Wild Chronicle of Beirut,fic / doc,11,France,yes,,,autoprod,yes,,newblood.png,
+9,Christophe Karabache,,New Blood: Wild Chronicle of Beirut,fic / doc,11,France,yes,,"A pseudo pop look at self-representation, play, and the violence of the state as they come into contact through the lens of a queer sex worker and her NYPD client.",autoprod,yes,,newblood.png,
 10,Collective Les Scotcheuses,,No Ouestern,fic,27,France,---,,,no copyright,yes,,noouestern.png,
 11,"Mehdi Ahoudig, Anna Salzberg",,On ira à Neuilly Inch'Allah (We'll go to Neuilly Inch'Allah),exp / doc,20,France,yes,,,prod GREC,yes but not after on internet,,onira.png,
 12,Pourya Ezzati Pour,,Pale Blue Dot,fic,11,Germany,yes,,,"""SCALA Programmkino Lüneburg""",no,,palebluedot.png,
-13,"Lise Bellynck, Frédéric Aspisi",,"Peaux Noires Masques Blancs (Black Skins, White Masks)",doc,56,France,yes,,,no copyright,yes,,peauxnoiresmasquesblancs.png,
+13,"Lise Bellynck, Frédéric Aspisi",,"Peaux Noires Masques Blancs (Black Skins, White Masks)",doc,56,France,yes,,"The Bard has spoken. You dare not say: ""I Hate Shakespeare"".",no copyright,yes,,peauxnoiresmasquesblancs.png,
 14,Jérome von Zilw,,Printemps (Spring),doc,27,France,yes,,,prod,yes only for pro ! ,,,
 15,Collective Les Scotcheuses,,Sème ton western,fic / doc / exp,24,France,---,,,no copyright,yes,,semetonwestern.png,
-16,Anaïs Ibert,,Siboney,fic,11,France,yes,,,no copyright,yes,,siboneymaster2gss.png,
+16,Anaïs Ibert,,Siboney,fic,11,France,yes,,"Kopfschlag is a collective and anonymous internet-based project created by Ljosa and Wolfgang Natlacen. The online visitors are part of it by drawing, writing, erasing and sharing their artworks on Kopfschlag's virtual wall, which can be defined as something between an etch, a sketch and the exquisite corpse.",no copyright,yes,,siboneymaster2gss.png,
 17,Bruno Rocchi,,The Limb of Morocco,doc,40,Italy,yes,,,CC ?,yes,,thelimbofmorocco.png,
 18,Mersiha Husagic,,Was kommt kommt (What Comes Comes),doc,25,Germany,yes,,,no copyright,yes,,whatcomescomes.png,
 19,"Noémi Aubry, Anouck Mangeat, Gurkan Aslan",,Yolunuz Açik Olsun,doc,8,France,yes,,,no copyright,yes,,yolunuz.png,

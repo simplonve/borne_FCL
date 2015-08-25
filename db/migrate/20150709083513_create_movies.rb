@@ -8,7 +8,7 @@ class CreateMovies < ActiveRecord::Migration
     	t.string :duration
     	t.string :country
     	t.string :subtitle
-    	t.string :format
+    	t.string :year
     	t.text :synopsis
     	t.string :licence
     	t.boolean :sharing
