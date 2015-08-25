@@ -5,17 +5,21 @@ class MoviesController < ApplicationController
 		@tags = Movie.all.map(&:tags).compact
 		@tags = @tags.map{|x| x.split(", ")}.flatten.uniq
 	end
-	def search
+	def search_title
+		@movie = Movie.find(params[:id])
+		redirect_to action: 'show', id: @movie.id
+	end
+	def search_tag
 		@tags = Movie.all.map(&:tags).compact
 		@tags = @tags.map{|x| x.split(", ")}.flatten.uniq
-		@movies = Movie.search_param(params)
+		@movies = Movie.search_tags(params[:tag])
 		@other_movies = Movie.all if @movies.empty?
 		render 'results'
 	end
 	def show
 		@movie = Movie.find(params[:id])
 		@tags = @movie.tags
-		@movie_size = File.size(ENV['HOME']+"/videos_2015/"+@movie.url).to_mega_octet
+		# @movie_size = File.size(ENV['HOME']+"/videos_2015/"+@movie.url).to_mega_octet
 	end
 	def watch
 		@movie = Movie.find(params[:id])
