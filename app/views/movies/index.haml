@@ -2,7 +2,7 @@
 	%a{:href=>"/results/#{tag}"} #{tag}
 .box-container
 	- @movies.each do |m|
-		.box{:style => "background-image: url(assets/#{m.img_url})"}
+		.box{:style => "background-image: url(/assets/#{m.img_url})"}
 			%a{:href =>"/movies/#{m.id}", :class =>'s-desc'}
 				.movie-title #{m.title}
 				.genre

@@ -3,7 +3,7 @@
   %h1= @movie.title  
   .player_info
     .column1
-      .image_film{:style => "background-image: url(assets/#{@movie.img_url})"}
+      .image_film{:style => "background-image: url(/assets/#{@movie.img_url})"}
       .button_watch
         = link_to image_tag("watch.svg", :class => "watch"), {:controller => "movies", :action => "watch"}, {:class => "link_button1"}
     .column2

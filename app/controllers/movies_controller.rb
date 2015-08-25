@@ -2,16 +2,14 @@ class MoviesController < ApplicationController
 	include MoviesHelper
 	def index
 		@movies = Movie.all
-		@tags = Movie.all.map(&:tags).compact
-		@tags = @tags.map{|x| x.split(", ")}.flatten.uniq
+		@tags = Movie.tags
 	end
 	def search_title
 		@movie = Movie.find(params[:id])
 		redirect_to action: 'show', id: @movie.id
 	end
 	def search_tag
-		@tags = Movie.all.map(&:tags).compact
-		@tags = @tags.map{|x| x.split(", ")}.flatten.uniq
+		@tags = Movie.tags
 		@movies = Movie.search_tags(params[:tag])
 		@other_movies = Movie.all if @movies.empty?
 		render 'results'
@@ -29,7 +27,9 @@ class MoviesController < ApplicationController
 	end
 	def download
 		@movie = Movie.find(params[:id])
+		binding.pry
 		@file = open(ENV['HOME']+"/videos_2015/#{@movie.url}")
+		binding.pry
 		send_file @file
 	end
 	

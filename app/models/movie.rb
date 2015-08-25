@@ -11,4 +11,9 @@ class Movie < ActiveRecord::Base
   	end
   	movies_by_tag
   end
+
+  def self.tags
+  tags = Movie.all.map(&:tags).compact
+  tags = tags.map{|x| x.split(", ")}.flatten.uniq
+  end
 end
