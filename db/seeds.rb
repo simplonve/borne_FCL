@@ -11,7 +11,7 @@ csv.each do |row|
   movie.duration = row.to_hash["duration"] 
   movie.country = row.to_hash["country"] 
   movie.subtitle = row.to_hash["subtitle"] 
-  movie.format = row.to_hash["year"] 
+  movie.year = row.to_hash["year"] 
   movie.synopsis = row.to_hash["synopsis"] 
   movie.licence = row.to_hash["licence"] 
   movie.sharing = row.to_hash["sharing"] 
