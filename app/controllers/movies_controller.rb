@@ -27,9 +27,7 @@ class MoviesController < ApplicationController
 	end
 	def download
 		@movie = Movie.find(params[:id])
-		binding.pry
 		@file = open(ENV['HOME']+"/videos_2015/#{@movie.url}")
-		binding.pry
 		send_file @file
 	end
 	
