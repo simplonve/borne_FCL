@@ -1,5 +1,3 @@
-- @tags.each do |tag|
-	%a{:href=>"/results/#{tag}"} #{tag}
 .box-container
 	- @movies.each do |m|
 		.box{:style => "background-image: url(/assets/#{m.img_url})"}

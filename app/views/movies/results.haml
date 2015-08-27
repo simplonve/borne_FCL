@@ -1,6 +1,3 @@
-- @tags.each do |tag|
-	%a{:href=>"/results/#{tag}"} #{tag}
-
 .box-container
 	%h2 Results: #{@movies.count} 
 	- @movies.each do |m|

@@ -1,6 +1,6 @@
-
 .movie_container 
-  %h1= @movie.title  
+  %h1= @movie.title
+  %h3= @movie.synopsis  
   .player_info
     .column1
       .image_film{:style => "background-image: url(/assets/#{@movie.img_url})"}
@@ -10,9 +10,11 @@
       .text_film
         %h3 Description
         %p Filmmaker: #{@movie.filmmaker_name}
-        %p #{@movie.synopsis}
+        %p Country: #{@movie.country}
+        %p Year: #{@year}
         %p Duration: #{@movie.duration} min
-        %p Year : #{@year}
+        %p Size: 
+        %p Licence: #{@movie.licence} 
       .button_download
         = link_to image_tag("download.svg", :class => "download"), {:controller => "movies", :action => "download"}, :target => "_blank"
 
