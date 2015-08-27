@@ -17,3 +17,9 @@ class Movie < ActiveRecord::Base
   tags = tags.map{|x| x.split(", ")}.flatten.uniq
   end
 end
+
+  class Fixnum
+    def to_mega_octet
+          (self*0.000001).to_i
+    end
+  end

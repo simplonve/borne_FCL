@@ -17,7 +17,7 @@ class MoviesController < ApplicationController
 	def show
 		@movie = Movie.find(params[:id])
 		@tags = @movie.tags
-		# @movie_size = File.size(ENV['HOME']+"/videos_2015/"+@movie.url).to_mega_octet
+		@movie_size = File.size(ENV['HOME']+"/videos_2015/"+@movie.url).to_mega_octet
 	end
 	def watch
 		@movie = Movie.find(params[:id])
