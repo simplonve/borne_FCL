@@ -13,7 +13,6 @@
         %p Country: #{@movie.country}
         %p Year: #{@year}
         %p Duration: #{@movie.duration} min
-        %p Size: #{@movie_size} Mo
         %p Licence: #{@movie.licence} 
       .button_download
         = link_to image_tag("download.svg", :class => "download"), {:controller => "movies", :action => "download"}, :target => "_blank"
